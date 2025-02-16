@@ -10,27 +10,64 @@
     <header>
         <h1>Raga Lagudua</h1>
         <p>Data Scientist</p>
-        <a href="resume.pdf" class="btn">View Resume</a>
+        <a href="https://drive.google.com/drive/folders/187MucVJfor6bjnNuWiI1OQE1FWR9FSPA?usp=sharing" class="btn">View Resume</a>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Aspiring and curious Data Scientist with cross-industry experience in E-Commerce Supply Chain, 
-            Automotive Manufacturing and Academic Research in Biopharma.</p>
+        <p>Welcome to my website! I'm a Data Scientist with a strong analytical mindset and cross-industry experience in E-Commerce Supply Chain,  
+            Automotive Manufacturing, and Biopharma Research.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Drug-Drug Interaction Prediction using Graph Neural Networks</h3>
+            <p>
+                ● Developed a self-supervised autoencoder model to learn unique representations of drugs using their molecular 
+                structure and node features. Pretrained the model using 2 million unique drug structures.  
+                ● Designed asupervised Neural Network which will take the encoded representations of two drugs and predict the 
+                presence of interaction. 
+            </p>
+            <br>
+            <a href="https://github.com/RagaLG/GNN-Drug-Interactions" class="btn" target="_blank">View on GitHub</a>
+        </div>
     
         <div class="project">
             <h3>Unsupervised Entity Matching</h3>
             <p>
-                This project focuses on **Unsupervised Entity Matching**, where entities from different sources are matched without labeled training data.
-                The approach uses similarity-based clustering and embedding techniques for entity representation.
+                ● Developed adaptive entity embedding techniques using Sentence-BERT. Engineered a hierarchical merging 
+                algorithm with Approximate Nearest Neighbor Search (ANNS). Implemented density-based pruning using 
+                DBSCAN-like clustering. Reduced runtime by 85% compared to traditional clustering methods. 
             </p>
             <img src="flow_diagram.png" alt="Flow Diagram" style="width: 100%; max-width: 600px;">
             <br>
             <a href="https://github.com/RagaLG/Unsupervised-Entity-Matching" class="btn" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Image Classification using Pytorch</h3>
+            <p>
+                ● Implemented a convolutional neural network (CNN) using PyTorch to accurately classify a diverse range of images 
+                from the CIFAR-10 dataset which contains 60,000 images across 10 distinct categories. 
+                ● Designed a custom CNN architecture with convolutional, batch normalization, max pooling, dropout, and fully 
+                connected layers. Trained the model using Adam optimizer, achieving competitive validation and test accuracy. 
+            </p>
+            <br>
+            <a href="https://github.com/RagaLG/Building-Neural-Networks/tree/main/Framework" class="btn" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Fraudulent Job Detection using SGD Classifier</h3>
+            <p>
+                ● Developed a text classification model to analyze 9000 job postings. Streamlined data preprocessing by combining 
+                and transforming textual features and applying one hot encoding to categorical features. 
+                ● Achieved a15% increase in accuracy through hyperparameter tuning with GridSearchCV, optimizing for F1 score 
+                using 5-fold cross-validation. 
+            </p>
+            <br>
+            <a href="https://github.com/RagaLG/Machine-Learning-Algorithms/tree/main/assignments/project" class="btn" target="_blank">View on GitHub</a>
         </div>
     
     </section>
