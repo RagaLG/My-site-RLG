@@ -1,83 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raga Lagudua</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raga Lagudua | AI Engineer / Data Scientist</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Raga Lagudua</h1>
-        <p>Data Scientist</p>
-        <a href="https://drive.google.com/drive/folders/187MucVJfor6bjnNuWiI1OQE1FWR9FSPA?usp=sharing" class="btn">View Resume</a>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my website! I'm a Data Scientist with a strong analytical mindset and cross-industry experience in E-Commerce Supply Chain,  
-            Automotive Manufacturing, and Biopharma Research.</p>
-    </section>
+<section id="hero" class="container">
+  <div class="hero-top">
+    <div class="hero-text">
+      <p class="intro-text">Hi, my name is</p>
+      <h1 class="hero-name">Raga Lagudua.</h1>
+      <h2 class="hero-subtitle">Turning data into real-world solutions.</h2>
+      <p class="hero-description">
+        I’m a Data Scientist and AI Engineer focused on creating smart solutions with data and machine learning. I enjoy turning complex problems into real-world impact through technology and creativity.
+      </p>
+      <div class="hero-buttons">
+          <a href="#projects" class="btn-outline">View My Work</a>
+          <a href="#contact" class="btn-outline">Connect with Me</a>
+      </div>
+    </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
+    <img src="profile.jpg" alt="Raga Lagudua Profile Picture" class="profile-pic-large">
+  </div>
+</section>
 
-        <div class="project">
-            <h3>Drug-Drug Interaction Prediction using Graph Neural Networks</h3>
-            <p>
-                ● Developed a self-supervised autoencoder model to learn unique representations of drugs using their molecular 
-                structure and node features. Pretrained the model using 2 million unique drug structures. 
-                ● Designed asupervised Neural Network which will take the encoded representations of two drugs and predict the 
-                presence of interaction. 
-            </ul>
-            </p>
-            <img src="GNN_Flow_Diagram.png" alt="Flow Diagram_1" style="width: 100%; max-width: 600px;">
-            <br>
-            <a href="https://github.com/RagaLG/GNN-Drug-Interactions" class="btn" target="_blank">View on GitHub</a>
-        </div>
-    
-        <div class="project">
-            <h3>Unsupervised Entity Matching</h3>
-            <p>
-                ● Developed adaptive entity embedding techniques using Sentence-BERT. 
-                ● Engineered a hierarchical merging algorithm with Approximate Nearest Neighbor Search (ANNS). 
-                ● Implemented density-based pruning using DBSCAN-like clustering. Reduced runtime by 85% compared to traditional clustering methods. 
-            </p>
-            <img src="flow_diagram.png" alt="Flow Diagram_2" style="width: 100%; max-width: 600px;">
-            <br>
-            <a href="https://github.com/RagaLG/Unsupervised-Entity-Matching" class="btn" target="_blank">View on GitHub</a>
-        </div>
 
-        <div class="project">
-            <h3>Image Classification using Pytorch</h3>
-            <p>
-                ● Implemented a convolutional neural network (CNN) using PyTorch to accurately classify a diverse range of images 
-                from the CIFAR-10 dataset which contains 60,000 images across 10 distinct categories. 
-                ● Designed a custom CNN architecture with convolutional, batch normalization, max pooling, dropout, and fully 
-                connected layers. Trained the model using Adam optimizer, achieving competitive validation and test accuracy. 
-            </p>
-            <img src="Image_Classification.png" alt="Flow Diagram_3" style="width: 100%; max-width: 600px;">
-            <br>
-            <a href="https://github.com/RagaLG/Building-Neural-Networks/tree/main/Framework" class="btn" target="_blank">View on GitHub</a>
-        </div>
+<header>
+    <nav>
+      <ul>
+        <li><a href="#about">Story</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+  
 
-        <div class="project">
-            <h3>Fraudulent Job Detection using SGD Classifier</h3>
-            <p>
-                ● Developed a text classification model to analyze 9000 job postings. Streamlined data preprocessing by combining 
-                and transforming textual features and applying one hot encoding to categorical features. 
-                ● Achieved a15% increase in accuracy through hyperparameter tuning with GridSearchCV, optimizing for F1 score 
-                using 5-fold cross-validation. 
-            </p>
-            <br>
-            <a href="https://github.com/RagaLG/Machine-Learning-Algorithms/tree/main/assignments/project" class="btn" target="_blank">View on GitHub</a>
-        </div>
-    
-    </section>
+<section id="about" class="container">
+  <h2>Here's my story.</h2>
+  <div class="card">
+    <p>I am passionate about solving real-world problems using AI and Data Science. With a background spanning engineering, research, and e-commerce operations, I believe in blending technical depth with practical impact.</p>
+  </div>
+</section>
 
-    <footer>
-        <p>Contact: <a href="mailto:rl1158@rit.edu">rl1158@rit.edu</a></p>
-        <p>© 2024 Raga Lagudua</p>
-    </footer>
+<section id="education" class="container">
+  <h2>Where I Built My Foundations</h2>
+  <div class="card">
+    <p>My academic journey has equipped me with strong technical and analytical skills to thrive in data-driven roles.</p>
+    <h3>MS in Data Science</h3>
+    <p><strong>Rochester Institute of Technology</strong> – Rochester, NY, USA (Aug 2023 – May 2025)</p>
+    <p>GPA: 3.93 | Graduate Merit Scholarship Recipient</p>
+    <p><small><strong>Core Courses:</strong> Software Construction (Java), Data Science and Analytics, Database Design Implementation, Computational Statistics, Applied Data Science, Neural Networks, Natural Language Processing, Software Engineering for Data Science</small></p>
+    <h3>BTech in Mechanical Engineering (Minor: Data Science)</h3>
+    <p><strong>Manipal Institute of Technology</strong> – Manipal, India (Aug 2017 - Jun 2021)</p>
+    <p><small><strong>Relevant Courses:</strong> Engineering Mathematics, Exploratory Data Analysis, R Programming, Data Cleansing, Machine Learning, Statistical Inference</small></p>
+  </div>
+</section>
+
+<section id="experience" class="container">
+  <h2>How I Applied My Skills in the Real World</h2>
+  <div class="card">
+    <p>Through research, internships, and industry projects, I've built practical solutions that bridge theory and execution.</p>
+    <h3>Post Baccalaureate Research Fellow</h3>
+    <p><strong>Robert Bosch Centre for DS & AI, IIT-M</strong> – India (Jan 2022 – Jan 2023)</p>
+    <ul>
+      <li>Developed a self-supervised autoencoder model for learning drug molecular representations.</li>
+      <li>Designed a supervised neural network to predict drug-drug interactions.</li>
+    </ul>
+    <h3>Operations Manager Intern</h3>
+    <p><strong>Amazon</strong> – Chennai, India (Feb 2021 - Jul 2021)</p>
+    <ul>
+      <li>Reduced box cycle time by 30% through packaging process optimization.</li>
+      <li>Managed quality metrics across 150+ associates.</li>
+    </ul>
+    <h3>Engineering Intern</h3>
+    <p><strong>Maruti Suzuki</strong> – Gurgaon, India (May 2019 - Jul 2019)</p>
+    <ul>
+      <li>Improved quality assurance processes and compiled spec charts for BS6 vehicle parts.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Projects I'm Proud Of</h2>
+
+  <div class="project-entry">
+    <div class="project-text">
+      <h3>AI-Driven Multi-Drone Person Detection and Re-Identification (Capstone)</h3>
+      <p><small>Python, PyTorch, timm, Blender, MATLAB, AWS SageMaker</small></p>
+      <ul>
+        <li>Processed multi-perspective CARGO dataset to build advanced person detection algorithms.</li>
+        <li>Engineered hybrid transformer-based models (ViT, VDT architectures).</li>
+        <li>Built synthetic data generation pipeline using Blender and MATLAB.</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="person_reid.png" alt="Multi-Drone ReID Workflow">
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <div class="project-text">
+      <h3>Image Classification using PyTorch</h3>
+      <p><small>Python, PyTorch, NumPy, Matplotlib</small></p>
+      <ul>
+        <li>Designed a custom CNN for CIFAR-10 image classification.</li>
+        <li>Achieved competitive validation and test accuracy using Adam optimizer.</li>
+      </ul>
+      <a href="https://github.com/RagaLG/Building-Neural-Networks/tree/main/Framework" class="btn" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-image">
+      <img src="Image_Classification.png" alt="CNN CIFAR-10 Architecture">
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <div class="project-text">
+      <h3>Unsupervised Multi-Table Entity Matching</h3>
+      <p><small>Python, Sentence-BERT, DBSCAN, Scikit-learn</small></p>
+      <ul>
+        <li>Developed adaptive entity embedding techniques using Sentence-BERT.</li>
+        <li>Optimized clustering with Approximate Nearest Neighbor Search (ANNS) and DBSCAN.</li>
+      </ul>
+      <a href="https://github.com/RagaLG/Unsupervised-Entity-Matching" class="btn" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-image">
+      <img src="flow_diagram.png" alt="Entity Matching Workflow">
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <div class="project-text">
+      <h3>Drug-Drug Interaction Prediction using Graph Neural Networks</h3>
+      <p><small>Python, Graph Neural Networks</small></p>
+      <ul>
+        <li>Developed a self-supervised autoencoder model for learning drug molecular representations.</li>
+        <li>Designed a supervised neural network to predict drug-drug interactions.</li>
+      </ul>
+      <a href="https://github.com/RagaLG/GNN-Drug-Interactions" class="btn" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-image">
+      <img src="GNN_Flow_Diagram.png" alt="GNN for Drug Interaction">
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="container">
+  <h2>My Technical Toolkit</h2>
+  <div class="card">
+    <p><strong>Languages & Tools:</strong> Python (PyTorch, TensorFlow, Hugging Face), SQL, Java, R, MATLAB, AWS, Git, Docker</p>
+    <p><strong>Domains:</strong> Machine Learning, Deep Learning, NLP, Computer Vision, Statistical Modeling, Data Analytics</p>
+  </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Connect with Me</h2>
+    <hr class="contact-line">
+    <p class="contact-description">
+        Whether you have an opportunity, a question, or just want to say hello — I’d love to hear from you.
+    </p>
+    <a href="mailto:rl1158@rit.edu" class="btn-outline">Say Hello</a>
+    <div class="social-icons">
+        <a href="https://github.com/RagaLG" target="_blank">
+            <img src="github_icon.png" class="no-invert" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com/in/raga-lagudua-9250361b3/" target="_blank">
+            <img src="linkedin_icon.png" class="no-invert" alt="LinkedIn">
+        </a>
+        <a href="mailto:rl1158@rit.edu">
+            <img src="email_icon.png" class="no-invert" alt="Email">
+        </a>
+    </div>
+</section>
+
+<footer>
+  <p>© 2024 Raga Lagudua</p>
+</footer>
+
 </body>
 </html>
